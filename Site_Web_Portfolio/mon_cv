@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 3;
+            margin: 2;
+            padding: 5;
+            color: #333;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        img {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        ul, ol {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+        ul li, ol li {
+            margin-bottom: 10px;
+        }
+        .contact-info, .reference {
+            margin-top: 20px;
+        }
+        .contact-info p, .reference p {
+            margin: 5px 0;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>
+    <div class="container">
+        <h2>Nom: DAO</h2>
+        <h2>Prénom: Gnim Gregoire</h2>
+        <img src="../Site_Web_Portfolio/images/7D42mV5.jpg" alt="Programmeur Étudiant">
+        <div class="contact-info">
+            <p><strong>Contact:</strong> +1 4382829977</p>
+        </div>
+
+        <h2>Objectif Professionnel</h2>
+        <p>
+            Étudiant en programmation profil développement web, je veux acquérir de l’expérience dans le monde du travail 
+            et utiliser de nouveaux logiciels afin d’enrichir mes connaissances dans mon choix de carrière en technique de l’informatique.
+        </p>
+
+        <h3>Connaissances Informatiques</h3> 
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+        </ul>
+
+        <h3>Formation</h3>
+        <ol>
+            <li>Collège EPL Le Stimulus, DES (Diplôme d'Études Secondaires) Mention assez bien</li>
+            <li>Stage de Tutorat de Français au <a href="https://www.bing.com/ck/a?!&&p=c2a996fd3a547950JmltdHM9MTcyNTU4MDgwMCZpZ3VpZD0xNzk3N2VlOC1iY2NmLTY5YTYtMjRmZi02YTA0YmQ0NTY4NzMmaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=17977ee8-bccf-69a6-24ff-6a04bd456873&psq=college+rosemont&u=a1aHR0cHM6Ly93d3cuY3Jvc2Vtb250LnFjLmNhLw&ntb=1">Collège Rosemont</a>, CAF</li>
+        </ol>
+
+        <h3>Projets Scolaires</h3>
+        <ul>
+            <li>Développement d’une application de gestion d'une carte bancaire</li>
+        </ul>
+
+        <h3>Expériences Professionnelles</h3>
+        <ul>
+            <li>SUNDAY COIFFURE, LOMÉ-TOGO<br>
+                16 Juillet 2022 – 16 Octobre 2022<br>
+                Assistance du chef coiffeur<br>
+                - Préparation et commande du matériel<br>
+                - Réalisation de coiffures usuelles
+            </li>
+            <li>BAR BAYARAMA, LOMÉ-TOGO<br>
+                20 Juin 2021 – 25 Juillet 2021<br>
+                DJ animateur de soirée<br>
+                - Mise en place et préparation des mix<br>
+                - Animation événements spéciaux<br>
+                - Étude des tendances de la clientèle
+            </li>
+            <li>MAXI, TERREBONNE-CANADA<br>
+                Travaille au Maxi (Boul Moody) depuis 27 Juillet 2023<br>
+                Commis, Caissier<br>
+                - Accueil de la clientèle<br>
+                - Mise en rayon
+            </li>
+        </ul>
+
+        <h3>Activités, Intérêts et Loisirs</h3>
+        <ol>
+            <li>Découvre mon goût pour le soccer</li>
+            <li>Découvre mon goût pour la musique</li>
+        </ol>
+
+        <h3>Référence</h3>
+        <div class="reference">
+            <p><i>Téléphone : 123-456-7890</i></p>
+            <p><i>Email : <a href="mailto:gnimdaoqc@gmail.com">gnimdaoqc@gmail.com</a></i></p>
+            <p><i>Adresse : 1094 Rue de la Saulaie, Terrebonne, Canada</i></p>
+        </div>
+
+        <h3>Mon goût pour le Soccer</h3>
+        <p>
+            Le sport fait respirer le corps comme l'âme et parmi tous ces sports le soccer combine l'esprit d'équipe 
+            et l'esprit de créativité qui me font vibrer.
+        </p>   
+    </div>
+    <footer>
+        <p>&copy; 2024 Gnim Gregoire Dao</p>
+    </footer>
+</body>
+</html>
